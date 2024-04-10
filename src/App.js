@@ -1,6 +1,17 @@
 import React, { useState } from 'react';
 import './App.css';
 
+function calculateEquation(x) {
+  const pi = Math.PI;
+  const e = Math.E;
+  
+  const part1 = Math.log(x ** 11 * Math.pow(pi, (e * x) / 2)) / Math.log(7);
+  const part2 = Math.asin(x - 3) * Math.pow(e, 2);
+  
+  const result = part1 + part2;
+  return +result.toFixed(2);
+}
+
 function App() {
   const [cgpa, setCGPA] = useState('');
   const [salaami, setSalaami] = useState(null);
@@ -13,7 +24,8 @@ function App() {
   const calculateSalaami = () => {
     const cgpaValue = parseFloat(cgpa);
     if (!isNaN(cgpaValue)) {
-      setSalaami(10+10*(10/Math.PI*Math.asin(cgpaValue-3)));
+      setSalaami(calculateEquation(cgpaValue));
+      console.log(Math.asin(1));
       setShowFireworks(true);
       setTimeout(() => {
         setShowFireworks(false);
@@ -52,7 +64,7 @@ function App() {
       {salaami !== null && (
         <div className="popup">
           <span className="close" onClick={closePopup}>&times;</span>
-          <h2>Salaami</h2>
+          <h2>Marhabaa....!</h2>
           <p>Your Salaami according to your CGPA - <span style={{color:'red'}}>{salaami} BDT</span></p>
         </div>
       )}
