@@ -13,7 +13,7 @@ function App() {
   const calculateSalaami = () => {
     const cgpaValue = parseFloat(cgpa);
     if (!isNaN(cgpaValue)) {
-      setSalaami(cgpaValue * 5);
+      setSalaami(10+10*(10/Math.PI*Math.asin(cgpaValue-3)));
       setShowFireworks(true);
       setTimeout(() => {
         setShowFireworks(false);
