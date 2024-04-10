@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/CGPA-Based-Salaami-Calculator/static/css/main.d8c8aa34.css",
-    "main.js": "/CGPA-Based-Salaami-Calculator/static/js/main.d9044da4.js",
+    "main.js": "/CGPA-Based-Salaami-Calculator/static/js/main.1e9d0145.js",
     "static/js/453.8c1f1f54.chunk.js": "/CGPA-Based-Salaami-Calculator/static/js/453.8c1f1f54.chunk.js",
     "index.html": "/CGPA-Based-Salaami-Calculator/index.html",
     "main.d8c8aa34.css.map": "/CGPA-Based-Salaami-Calculator/static/css/main.d8c8aa34.css.map",
-    "main.d9044da4.js.map": "/CGPA-Based-Salaami-Calculator/static/js/main.d9044da4.js.map",
+    "main.1e9d0145.js.map": "/CGPA-Based-Salaami-Calculator/static/js/main.1e9d0145.js.map",
     "453.8c1f1f54.chunk.js.map": "/CGPA-Based-Salaami-Calculator/static/js/453.8c1f1f54.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d8c8aa34.css",
-    "static/js/main.d9044da4.js"
+    "static/js/main.1e9d0145.js"
   ]
 }
