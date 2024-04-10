@@ -9,7 +9,7 @@ function calculateEquation(x) {
   const part2 = Math.asin(x - 3) * Math.pow(e, 2);
   
   const result = part1 + part2;
-  return +result.toFixed(2);
+  return Math.max(5,+result.toFixed(2));
 }
 
 function App() {
