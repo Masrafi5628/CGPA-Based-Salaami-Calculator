@@ -1,3 +1,5 @@
+Live - https://masrafi5628.github.io/CGPA-Based-Salaami-Calculator/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
